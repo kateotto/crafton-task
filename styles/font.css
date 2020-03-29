@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Muli";
+  src: url("../src/fonts/Muli-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Muli-Bold";
+  src: url("../src/fonts/Muli-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Muli-Light";
+  src: url("../src/fonts/Muli-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "Muli-ExtraBold";
+  src: url("../src/fonts/Muli-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Muli-SemiBold";
+  src: url("../src/fonts/Muli-SemiBold.ttf");
+}
