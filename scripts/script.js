@@ -145,7 +145,10 @@ const validateForm = () => {
   focusInput(checkboxLabel, !isChecked);
 
   if (
-    !(isNameValid && isSurnameValid && isEmailValid && isAreaValid) &&
+    !isNameValid &&
+    !isSurnameValid &&
+    !isEmailValid &&
+    !isAreaValid &&
     isChecked
   ) {
     sendMessage();
