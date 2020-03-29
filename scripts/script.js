@@ -214,8 +214,6 @@ function initMap() {
 const footerTitle = document.querySelectorAll(".footer__list-title");
 const footerList = document.querySelectorAll(".footer__list");
 
-// arrow.forEach(btn => btn.addEventListener("click", btnCheck));
-
 function toogleList(element) {
   footerList.forEach(e => e.classList.remove("footer__list--active"));
   footerTitle.forEach(e => e.classList.remove("footer__list-title--active"));
